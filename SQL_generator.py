@@ -1,5 +1,9 @@
+<<<<<<< Updated upstream
 
 # CREATE query 
+=======
+# CREATE query
+>>>>>>> Stashed changes
 def create():
     table = input("Table name : ")
     cols = list(input("space separated column names :").split())
@@ -25,6 +29,7 @@ def create():
     else:
         result += ");"
     return result
+<<<<<<< Updated upstream
     
 # INSERT query 
 def insert():
@@ -65,12 +70,15 @@ def insert():
         for value in values:
             print(value)
     
+=======
+>>>>>>> Stashed changes
 
 
 # DRIVER CODE
 command = input("command :")
 
 if command == 'create':
+<<<<<<< Updated upstream
     print(create())
 elif command == 'insert':
     insert()
@@ -78,3 +86,6 @@ elif command == 'insert':
 
 
 
+=======
+    print(create())
+>>>>>>> Stashed changes
